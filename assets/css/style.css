@@ -1,0 +1,50 @@
+body {
+    background-image: url(../images/background1.jpg);
+    background-repeat: repeat;
+}
+
+.main-heading {
+    background-color:transparent;
+    text-align: center;
+}
+
+.main-heading h1 {
+    font-family: "Comic Sans MS";
+    color:greenyellow;
+    font-size:3vw;
+}
+
+
+
+.main-content-area p {
+    color:greenyellow;
+
+}
+
+#left-baby, #right-baby {
+    max-height: 100%;
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+.main-heading p{
+    font-family: 'Permanent Marker', cursive;
+    color:cyan;
+    font-size:1.5vw;
+}
+
+.gif-holder img {
+    max-height:160px;
+    display:block;
+    margin:auto;
+}
+
