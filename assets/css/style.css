@@ -14,10 +14,37 @@ body {
     font-size:3vw;
 }
 
+.jumbotron {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
 .main-content-area p {
     color:greenyellow;
-
+    text-align: center;
+    font-size:22px;
 }
+
+
+.container-fluid {
+    position:absolute;
+    text-align: center;
+}
+label {
+    color:cyan;
+    font-size:16px;
+    position:relative;
+}
+
+.radio-label {
+    display: inline-block;
+     vertical-align: top;
+     margin-right: 15px;
+ }
+ .radio-button {
+    display: inline-block;
+     vertical-align: top;
+ }
 
 #left-baby, #right-baby {
     max-height: 100%;
@@ -50,9 +77,14 @@ body {
 .y-tho img {
     display: block;
     margin:auto;
+    bottom:0;
+}
+
+#start-game, #start-game-again, #done-with-game {
+    display:block;
+    margin:auto;
 }
 
 #start-game {
-    display:block;
-    margin:auto;
+    margin-top:165px;
 }
